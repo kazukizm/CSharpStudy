@@ -14,6 +14,7 @@ namespace _01_2_Assign
 	{
 		static void Main(string[] args)
 		{
+			// TODO ここにプログラムを追加。
 		}
 	}
 }
