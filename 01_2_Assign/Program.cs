@@ -11,9 +11,14 @@
 namespace _01_2_Assign
 {
 	class Program
-	{
+	{ 
 		static void Main(string[] args)
 		{
+            int x = 11, y = 3, z;
+            Console.WriteLine("x="+x);
+            x = 5;
+            z = x + y;
+            Console.WriteLine("z="+z);
 		}
 	}
 }
