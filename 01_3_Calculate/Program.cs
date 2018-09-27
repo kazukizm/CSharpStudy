@@ -18,7 +18,20 @@ namespace _01_3_Calculate
 	{
 		static void Main(string[] args)
 		{
-			// TODO ここにプログラムを追加。
+            // TODO ここにプログラムを追加。
+            int x = 9, y = 7, z;
+            z = x + y;
+            Console.WriteLine("x+y=" + z);
+            z = x - y;
+            Console.WriteLine("x-y=" + z);
+            z = x * y;
+            Console.WriteLine("x*y=" + z);
+            z = x / y;
+            Console.WriteLine("x/y=" + z);
+            z = x % y;
+            Console.WriteLine("x%y=" + z);
+            Console.WriteLine("xのy乗="+Math.Pow(x, y));
+            
 		}
 	}
 }
