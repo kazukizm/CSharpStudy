@@ -13,17 +13,12 @@ namespace _01_2_Assign
 	class Program
 	{ 
 		static void Main(string[] args)
-<<<<<<< HEAD
 		{
             int x = 11, y = 3, z;
             Console.WriteLine("x="+x);
             x = 5;
             z = x + y;
             Console.WriteLine("z="+z);
-=======
-		{
-			// TODO ここにプログラムを追加。
->>>>>>> 3fb90c25d3a353b0f4ee9d42d51b9b960553d533
 		}
 	}
 }
