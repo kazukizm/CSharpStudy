@@ -12,8 +12,10 @@ namespace _01_4_KeyInput
 		static void Main(string[] args)
 		{
 			Console.WriteLine("好きなキーを押してください。");
-			// TODO ?? 部分を変数にしてみよう。
-			Console.WriteLine("あなたが押したキーは??です");
-		}
+            // TODO ?? 部分を変数にしてみよう。
+            ConsoleKeyInfo input = Console.ReadKey(true);
+            Console.ReadKey();
+			Console.WriteLine("あなたが押したキーは"+ input.Key.ToString()+"です");
+       }
 	}
 }
