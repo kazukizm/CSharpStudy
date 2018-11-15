@@ -25,12 +25,22 @@ namespace _01_6_IfStatements
 		{
 			Console.WriteLine("ｘに格納する数字を入力してください。(半角の数字のみ)");
 			string strX = Console.ReadLine();
-
+            int x = Convert.ToInt16(strX);
 			Console.WriteLine("yに格納する数字を入力してください。(半角の数字のみ)");
 			string strY = Console.ReadLine();
+            int y = Convert.ToInt16(strY);
 
-
-			// TODO ここにif文を追加してxとｙを比較する処理を下記
+            // TODO ここにif文を追加してxとｙを比較する処理を下記
+            if (x > y)
+            {
+                Console.WriteLine("xの方が大きい");
+            }else if (y > x)
+            {
+                Console.WriteLine("yの方が大きい");
+            }else if (x == y)
+            {
+                Console.WriteLine("同じ大きさ");
+            }
 			// 大小の関係ごとに「ｘのほうが大きい」などの表示を行おう。
 		}
 	}

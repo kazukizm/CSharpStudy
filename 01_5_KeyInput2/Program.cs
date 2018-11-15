@@ -21,10 +21,10 @@ namespace _01_5_KeyInput2
 			// キーボードで入力した文字列をstrで受け取る。
 			string str = Console.ReadLine();
 
-			// TODO 文字列をint型に変換する処理を調べてここに追加。
-
+            // TODO 文字列をint型に変換する処理を調べてここに追加。
+            int x = Convert.ToInt16(str);
 			// ｘの内容を表示させる。
-			Console.WriteLine("入力した数字=");
+			Console.WriteLine("入力した数字="+x);
 		}
 	}
 }
